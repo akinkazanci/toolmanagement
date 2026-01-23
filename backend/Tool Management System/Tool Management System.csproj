@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Tool_Management_System</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\static\css\main.2c865dfe.css.map" />
+    <None Include="wwwroot\static\css\main.41681965.css.map" />
+    <None Include="wwwroot\static\css\main.5116a16c.css.map" />
+    <None Include="wwwroot\static\css\main.54977ad6.css.map" />
+    <None Include="wwwroot\static\css\main.61b8db03.css.map" />
+    <None Include="wwwroot\static\css\main.d17e18e0.css.map" />
+    <None Include="wwwroot\static\js\453.87fe98f0.chunk.js" />
+    <None Include="wwwroot\static\js\453.87fe98f0.chunk.js.map" />
+    <None Include="wwwroot\static\js\main.0da5a847.js" />
+    <None Include="wwwroot\static\js\main.0da5a847.js.map" />
+    <None Include="wwwroot\static\js\main.154dbb09.js" />
+    <None Include="wwwroot\static\js\main.154dbb09.js.map" />
+    <None Include="wwwroot\static\js\main.1d930852.js" />
+    <None Include="wwwroot\static\js\main.1d930852.js.map" />
+    <None Include="wwwroot\static\js\main.4778882f.js" />
+    <None Include="wwwroot\static\js\main.4778882f.js.map" />
+    <None Include="wwwroot\static\js\main.7b0fff91.js" />
+    <None Include="wwwroot\static\js\main.7b0fff91.js.map" />
+    <None Include="wwwroot\static\js\main.e3ead89e.js" />
+    <None Include="wwwroot\static\js\main.e3ead89e.js.map" />
+    <None Include="wwwroot\static\js\main.fedd0921.js" />
+    <None Include="wwwroot\static\js\main.fedd0921.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
+  </ItemGroup>
+
+</Project>
