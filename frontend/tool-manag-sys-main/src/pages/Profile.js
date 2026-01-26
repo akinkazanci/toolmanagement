@@ -104,16 +104,11 @@ const Profile = () => {
 
       <div className="p-6 max-w-6xl mx-auto">
         {/* Header */}
-        <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 mb-6">
+        <div className="mb-8">
           <div className="flex items-center justify-between">
-            <div>
-              <div className="flex items-center space-x-3 mb-2">
-                <div className="p-2 bg-blue-50 rounded-lg">
-                  <User className="h-6 w-6 text-blue-600" />
-                </div>
-                <h1 className="text-2xl font-bold text-gray-900">Profile</h1>
-              </div>
-              <p className="text-gray-600">Manage your personal information and preferences</p>
+            <div className="text-left">
+              <h1 className="text-4xl font-bold text-slate-900 mb-2">Profile</h1>
+              <p className="text-xl text-slate-600">Manage your personal information and preferences</p>
             </div>
             {!isEditing ? (
               <button

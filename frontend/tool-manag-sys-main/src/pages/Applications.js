@@ -1011,8 +1011,8 @@ const ApplicationManagement = () => {
         <div className="mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className='text-left'>
-              <h1 className="text-3xl font-bold text-gray-900">Application Management</h1>
-              <p className="mt-2 text-gray-600">Manage your applications and user permissions</p>
+              <h1 className="text-4xl font-bold text-slate-900 mb-2">Application Management</h1>
+              <p className="text-xl text-slate-600">Manage your applications and user permissions</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <button

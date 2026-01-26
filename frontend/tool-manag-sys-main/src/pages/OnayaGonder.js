@@ -337,9 +337,9 @@ const OnayaGonder = () => {
 
   return (
     <div className="min-h-screen p-6">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold text-slate-900">Onaya Gönder</h1>
-        <p className="text-sm text-slate-600">Kullanıcı, departman, lokasyon, uygulama ve erişim yetkisi listesi</p>
+      <div className="mb-8 text-left">
+        <h1 className="text-4xl font-bold text-slate-900 mb-2">Onaya Gönder</h1>
+        <p className="text-xl text-slate-600">Kullanıcı, departman, lokasyon, uygulama ve erişim yetkisi listesi</p>
       </div>
 
       <div className="bg-white/80 backdrop-blur-sm rounded-xl border border-slate-200 shadow-lg p-4 mb-6">

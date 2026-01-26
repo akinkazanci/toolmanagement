@@ -111,8 +111,9 @@ const translations = {
      'creationDate': 'Oluşturma Tarihi',
      'noRoleAssigned': 'Bu kullanıcıya henüz rol atanmamış',
      
-     // Access Management Page
+    // Access Management Page
     'access_management_title': 'Erişim Yönetimi',
+    'access_management_subtitle': 'Erişim haklarını ve rolleri yönetin',
     'project_management_title': 'Proje Yönetimi',
     'new_access_request': 'Yeni Yetki Talep',
     'search_access_placeholder': 'İsim, e-posta, kullanıcı adı, departman, lokasyon ile arayın...',
@@ -193,6 +194,7 @@ const translations = {
     'edit_permission': 'İzni Düzenle',
     'add_new_permission': 'Yeni İzin Ekle',
     'save_application': 'Uygulamayı Kaydet',
+    'save_project': 'Projeyi Kaydet',
     'save_role': 'Rolü Kaydet',
     'save_permission': 'İzni Kaydet',
     'enter_application_name': 'Uygulama adını girin',
@@ -255,6 +257,9 @@ const translations = {
    
     // Sidebar
     'dashboard': 'Dashboard',
+    'dashboard_description': 'System overview and statistics',
+    'total_personnel': 'Total Personnel',
+    'active_personnel': 'Active Personnel',
     'user_management': 'User Management',
     'access_management': 'Access Management',
     'project_management': 'Project Management',
@@ -284,6 +289,8 @@ const translations = {
     'view_profile': 'View Profile',
    
     // Access Management
+    'access_management_title': 'Access Management',
+    'access_management_subtitle': 'Manage access rights and roles',
     'access_requests': 'Access Requests',
     'new_request': 'New Request',
     'application': 'Application',
@@ -387,6 +394,7 @@ const translations = {
     'application_management': 'Application Management',
     'project_management_title': 'Project Management',
     'project_management_desc': 'Manage system projects',
+    'project_management_subtitle': 'Manage project processes and statuses',
     'settings_title': 'Settings',
     'settings_subtitle': 'Manage system settings',
     'add_new_project': 'Add New Project',
@@ -430,6 +438,7 @@ const translations = {
     'edit_permission': 'Edit Permission',
     'add_new_permission': 'Add New Permission',
     'save_application': 'Save Application',
+    'save_project': 'Save Project',
     'save_role': 'Save Role',
     'save_permission': 'Save Permission',
     'enter_application_name': 'Enter application name',

@@ -4,15 +4,17 @@ import { Award, Plus, Download } from 'lucide-react';
 const Certificates = () => {
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">Certificates</h1>
-          <p className="text-gray-600">Manage SSL certificates and security credentials</p>
+      <div className="mb-8">
+        <div className="flex items-center justify-between">
+          <div className="text-left">
+            <h1 className="text-4xl font-bold text-slate-900 mb-2">Certificates</h1>
+            <p className="text-xl text-slate-600">Manage SSL certificates and security credentials</p>
+          </div>
+          <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center">
+            <Plus size={16} className="mr-2" />
+            Issue Certificate
+          </button>
         </div>
-        <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center">
-          <Plus size={16} className="mr-2" />
-          Issue Certificate
-        </button>
       </div>
 
       <div className="bg-white rounded-lg border border-gray-200 p-6">

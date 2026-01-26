@@ -717,7 +717,10 @@ export default function AccessManagement() {
     <div className="min-h-screen relative overflow-hidden">
       <div className="relative z-10 max-w-full mx-auto px-6 py-8">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800">{t('access_management_title')}</h1>
+          <div className="text-left">
+            <h1 className="text-4xl font-bold text-slate-900 mb-2">{t('access_management_title')}</h1>
+            <p className="text-xl text-slate-600">{t('access_management_subtitle') || "Erişim yetkilerini ve rollerini yönetin"}</p>
+          </div>
           <div className="flex gap-3">
             <button
               onClick={() => setShowExportModal(true)}

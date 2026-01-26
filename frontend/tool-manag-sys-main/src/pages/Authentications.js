@@ -2294,16 +2294,11 @@ const Authentications = () => {
     <div className="min-h-screen p-6">
       <div className="w-full space-y-6">
         {/* Enhanced Header */}
-        <div className="bg-white rounded-xl border shadow-sm p-6">
+        <div className="mb-8">
           <div className="flex items-center justify-between">
-            <div>
-              <div className="flex items-center space-x-3 mb-2">
-                <div className="p-2 bg-blue-100 rounded-lg">
-                  <Shield className="h-6 w-6 text-blue-600" />
-                </div>
-                <h1 className="text-2xl font-bold text-gray-900">Authentication Management</h1>
-              </div>
-              <p className="text-gray-600">
+            <div className="text-left">
+              <h1 className="text-4xl font-bold text-slate-900 mb-2">Authentication Management</h1>
+              <p className="text-xl text-slate-600">
                 Configure authentication providers, security settings, and monitor access logs across your organization
               </p>
             </div>

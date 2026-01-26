@@ -200,11 +200,13 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gray-50 p-8">
+    <div className="min-h-screen relative overflow-hidden p-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-800">{t('dashboard')}</h1>
-        <p className="text-slate-500">{t('dashboard_description')}</p>
+        <div className="text-left">
+          <h1 className="text-4xl font-bold text-slate-900 mb-2">{t('dashboard')}</h1>
+          <p className="text-xl text-slate-600">{t('dashboard_description')}</p>
+        </div>
       </div>
 
       {/* Top Stats Cards */}

@@ -4,9 +4,11 @@ import { Monitor, Activity, AlertTriangle } from 'lucide-react';
 const Monitoring = () => {
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900">System Monitoring</h1>
-        <p className="text-gray-600">Monitor system performance and health</p>
+      <div className="mb-8">
+        <div className="text-left">
+          <h1 className="text-4xl font-bold text-slate-900 mb-2">System Monitoring</h1>
+          <p className="text-xl text-slate-600">Monitor system performance and health</p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

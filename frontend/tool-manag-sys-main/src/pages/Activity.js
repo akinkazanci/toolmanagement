@@ -48,11 +48,15 @@ const Activity = () => {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">Activity Log</h1>
-          <p className="text-gray-600">Monitor system activities and user actions</p>
+      <div className="mb-8">
+        <div className="text-left">
+          <h1 className="text-4xl font-bold text-slate-900 mb-2">Activity Log</h1>
+          <p className="text-xl text-slate-600">Monitor system activities and user actions</p>
         </div>
+      </div>
+
+      <div className="flex items-center justify-between mb-6">
+        <div></div>
         <div className="flex items-center space-x-4">
           <button className="px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50">
             Export

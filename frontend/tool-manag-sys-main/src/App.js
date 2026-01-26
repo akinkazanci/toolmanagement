@@ -14,7 +14,7 @@ import YetkiTalep from './pages/YetkiTalep';
 import OnayaGonder from './pages/OnayaGonder';
 import Certificates from './pages/Certificates';
 import Monitoring from './pages/Monitoring';
-import Settings from './pages/Settings 1';
+import Settings from './pages/Settings';
 import Profile from './pages/Profile';
 import { AuthProvider } from './contexts/AuthContext';
 import { LanguageProvider } from './contexts/LanguageContext';

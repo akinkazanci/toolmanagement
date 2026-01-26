@@ -256,9 +256,12 @@ export default function ProjectManagement() {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      <div className="px-6 pt-6">
+      <div className="px-6 pt-6 mb-8">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold">{t("project_management_title") || "Proje Yönetimi"}</h1>
+          <div className="text-left">
+            <h1 className="text-4xl font-bold text-slate-900 mb-2">{t("project_management_title") || "Proje Yönetimi"}</h1>
+            <p className="text-xl text-slate-600">{t("project_management_subtitle") || "Proje süreçlerini ve durumlarını yönetin"}</p>
+          </div>
         </div>
       </div>
 

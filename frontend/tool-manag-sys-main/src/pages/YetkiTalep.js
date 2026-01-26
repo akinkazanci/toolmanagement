@@ -1,4 +1,4 @@
-// src/pages/YetkiTalep.jsx
+// src/pages/YetkiTalep.js
 
 import React, { useState, useEffect } from "react";
 import { Save, User, Building, FileText, Settings } from "lucide-react";
